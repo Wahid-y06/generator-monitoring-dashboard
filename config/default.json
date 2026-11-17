@@ -1,0 +1,35 @@
+{
+  "generator": {
+    "rated_kva": 500.0,
+    "rated_voltage": 480.0,
+    "nominal_freq": 60.0,
+    "power_factor": 0.8,
+    "governor_tau": 2.0,
+    "avr_tau": 0.5,
+    "inertia_dip_hz_per_pu": 3.0,
+    "voltage_dip_pu_per_pu": 0.15,
+    "ambient_c": 25.0,
+    "temp_rise_full_load_c": 80.0,
+    "thermal_tau": 120.0
+  },
+  "alarms": {
+    "voltage": {
+      "warn_low": 456.0, "crit_low": 432.0,
+      "warn_high": 504.0, "crit_high": 528.0,
+      "hysteresis": 4.8, "delay": 0.5
+    },
+    "frequency": {
+      "warn_low": 59.4, "crit_low": 58.8,
+      "warn_high": 60.6, "crit_high": 61.2,
+      "hysteresis": 0.1, "delay": 0.5
+    },
+    "current": {
+      "warn_high": 601.0, "crit_high": 691.0,
+      "hysteresis": 10.0, "delay": 2.0
+    },
+    "temperature": {
+      "warn_high": 120.0, "crit_high": 135.0,
+      "hysteresis": 3.0, "delay": 0.0
+    }
+  }
+}
