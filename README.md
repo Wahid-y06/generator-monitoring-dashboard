@@ -1,5 +1,7 @@
 # Generator Monitoring and Alarm Dashboard
 
+[![tests](https://github.com/Wahid-y06/generator-monitoring-dashboard/actions/workflows/tests.yml/badge.svg)](https://github.com/Wahid-y06/generator-monitoring-dashboard/actions/workflows/tests.yml)
+
 A Python simulation of a 500 kVA, 480 V, 60 Hz standby generator with a
 panel-style alarm system. It models how voltage, current, frequency and
 winding temperature respond to load changes, and raises **warning** and
